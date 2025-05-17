@@ -1,0 +1,29 @@
+"""
+Remove Element (LeetCode)
+
+Given an integer array nums and an integer val, remove all occurrences of val in nums in-place.
+The order of the elements may be changed.
+
+Return the number of elements in nums which are not equal to val.
+
+Requirements:
+- Modify nums such that the first k elements contain the elements which are not equal to val.
+- The remaining elements of nums after the first k are not important.
+- Return k, the count of elements not equal to val.
+
+Example:
+Input: nums = [3,2,2,3], val = 3
+Output: 2, nums could be [2,2,_,_]
+
+Explanation:
+The first two elements of nums are 2, which are the elements not equal to 3.
+"""
+
+class Solution(object):
+    def removeElement(self, nums, val):
+        k = 0
+        for i in range(len(nums)):
+            if nums[i] != val:
+                nums[k] = nums[i]
+                k += 1
+        return k
