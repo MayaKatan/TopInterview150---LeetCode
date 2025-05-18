@@ -1,0 +1,18 @@
+"""
+Uses a dynamic counting approach: keeps a candidate and a count of how many times
+it "balances out" against other elements. Whenever the count reaches zero,
+the candidate is replaced. In the end, the remaining candidate is the majority element,
+because it appears more than n/2 times.
+"""
+class Solution(object):
+    def majorityElement(self, nums):
+        num = None
+        count = 0
+        for i in range(len(nums)):
+            if count == 0:
+                num = nums[i]
+            if nums[i] == num:
+                count += 1
+            if nums[i] != num:
+                count -= 1
+        return num
