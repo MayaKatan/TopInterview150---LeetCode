@@ -1,7 +1,7 @@
 # TopInterview150---LeetCode
 
 # Array / String
-# Easy:
+Easy:
     Merge Sorted Array (27)
     Remove Element (88)
     Remove Duplicates from Sorted Array (26)
@@ -13,6 +13,6 @@
     Find the Index of the First Occurrence in a String (28)
 
 # Two Pointers
-# Easy:
+Easy:
     Valid Palindrome (125)
     Is Subsequence (392)
