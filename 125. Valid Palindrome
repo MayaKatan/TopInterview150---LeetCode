@@ -1,0 +1,35 @@
+"""
+Example 1:
+
+Input: s = "A man, a plan, a canal: Panama"
+Output: true
+Explanation: "amanaplanacanalpanama" is a palindrome.
+Example 2:
+
+Input: s = "race a car"
+Output: false
+Explanation: "raceacar" is not a palindrome.
+Example 3:
+
+Input: s = " "
+Output: true
+Explanation: s is an empty string "" after removing non-alphanumeric characters.
+Since an empty string reads the same forward and backward, it is a palindrome.
+"""
+
+class Solution(object):
+    def isPalindrome(self, s):
+        if s == " ":
+            return True
+        while len(s) > 1:
+            if not s[0].isalnum():
+                s = s[1:]
+                continue
+            if not s[-1].isalnum():
+                s = s[:-1]
+                continue
+            if s[0].lower() == s[-1].lower():
+                s = s[1:-1]
+            else:
+                return False
+        return True
