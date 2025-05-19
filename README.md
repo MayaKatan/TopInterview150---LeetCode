@@ -1,5 +1,9 @@
 # TopInterview150 - LeetCode
 
+This repository contains my solutions to selected problems from LeetCode’s Top Interview 150 list.
+The goal is to strengthen my problem-solving skills, deepen my understanding of algorithms and data structures, and write clean and efficient code.
+Problems are organized by topic and difficulty level, with a focus on clarity and performance.
+
 ## Array / String  
 **Easy:**
 - Merge Sorted Array (27)  
