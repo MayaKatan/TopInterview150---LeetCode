@@ -14,7 +14,10 @@ Problems are organized by topic and difficulty level, with a focus on clarity an
 - Roman to Integer (13)  
 - Length of Last Word (58)  
 - Longest Common Prefix (14)  
-- Find the Index of the First Occurrence in a String (28)  
+- Find the Index of the First Occurrence in a String (28)
+
+**Medium:**
+- Integer to Roman (12) 
 
 ## Two Pointers  
 **Easy:**
