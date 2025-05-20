@@ -23,3 +23,11 @@ Problems are organized by topic and difficulty level, with a focus on clarity an
 **Easy:**
 - Valid Palindrome (125)  
 - Is Subsequence (392)
+
+## Hashmap
+**Easy:**
+- Ransom Note (383)
+- Isomorphic Strings ()
+- Word Pattern ()
+- Valid Anagram ()
+  
