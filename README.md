@@ -27,7 +27,7 @@ Problems are organized by topic and difficulty level, with a focus on clarity an
 ## Hashmap
 **Easy:**
 - Ransom Note (383)
-- Isomorphic Strings ()
+- Isomorphic Strings (205)
 - Word Pattern ()
 - Valid Anagram ()
   
