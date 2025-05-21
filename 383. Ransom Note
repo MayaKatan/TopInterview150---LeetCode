@@ -1,0 +1,34 @@
+"""
+Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise.
+
+Each letter in magazine can only be used once in ransomNote.
+
+Example 1:
+Input: ransomNote = "a", magazine = "b"
+Output: false
+
+Example 2:
+Input: ransomNote = "aa", magazine = "ab"
+Output: false
+Example 3:
+
+Input: ransomNote = "aa", magazine = "aab"
+Output: true
+"""
+
+class Solution(object):
+    def canConstruct(self, ransomNote, magazine):
+        dictionary = {
+        'a': 0, 'b': 0, 'c': 0, 'd': 0, 'e': 0, 'f': 0, 'g': 0,
+        'h': 0, 'i': 0, 'j': 0, 'k': 0, 'l': 0, 'm': 0, 'n': 0,
+        'o': 0, 'p': 0, 'q': 0, 'r': 0, 's': 0, 't': 0, 'u': 0,
+        'v': 0, 'w': 0, 'x': 0, 'y': 0, 'z': 0 }        
+        for ch in magazine:
+            dictionary[ch] += 1
+        
+        for ch in ransomNote:
+            if dictionary[ch] == 0:
+                return False
+            dictionary[ch] -= 1
+        
+        return True
