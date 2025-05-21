@@ -29,5 +29,4 @@ Problems are organized by topic and difficulty level, with a focus on clarity an
 - Ransom Note (383)
 - Isomorphic Strings (205)
 - Word Pattern (290)
-- Valid Anagram ()
   
